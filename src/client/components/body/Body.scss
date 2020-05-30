@@ -1,0 +1,87 @@
+@import '../../../App.scss';
+
+
+.carousel-inner {
+    max-height: 350px !important;
+}
+
+.card {
+    width: 18rem;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    color: $hotpink;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.card-border {
+    border: 6px solid darkslateblue;
+    border-radius: 13px;
+}
+
+.bodypanel {
+    margin: 2%;
+}
+
+.offerdiv{
+    background-image: linear-gradient($white 50%, $darkslateblue 50%);
+}
+
+.img-thumbnail {
+    max-width: 73%;
+}
+
+.offer-imgs {
+    margin: 5% 0%;
+}
+
+.animationdiv {
+    overflow: hidden;
+    background-image: linear-gradient(to right, $darkslateblue 50%, $white 50%);
+    margin: 3% 4%;
+}
+
+.animatedImg {
+    padding-top: 3%;
+    max-width: 800px;
+}
+
+.animatediv2 {
+    padding-left: 3%;
+}
+
+.h-fitcontent {
+    height: 350px;
+}
+
+@media (max-width: 991.98px) {
+    .offerdiv {
+        padding: 10%;
+    }
+
+    .animatediv1 {
+        flex-wrap: wrap !important;
+    }
+
+    .animatediv2 {
+        padding-left: 0%;
+        flex-wrap: wrap !important;
+    }
+
+    .black-txt {
+        color: black !important;
+    }
+
+    .animationdiv {
+        background-image: linear-gradient(to bottom, white 33%, darkslateblue 34%, darkslateblue 67%, white 68%);
+        margin: 3% 0%;
+    }
+
+    .animatedImg {
+        padding: 3%;
+        max-width: 100%;
+    }
+}

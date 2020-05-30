@@ -1,0 +1,65 @@
+@import "../../../App.scss";
+
+.mainfooter {
+  font-weight: 600;
+  color: $greytxt;
+  line-height: 3;
+}
+
+.mainfooter:hover {
+  color: $hotpink;
+  text-decoration: none;
+}
+.contentfooter {
+  padding-right: 4%;
+}
+
+.contactinfo:hover {
+  color: $greytxt;
+}
+
+.maindiv {
+  padding: 3%;
+}
+
+hr {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  border-top: 1px solid $white;
+}
+
+.payoptionimg {
+  width: 24%;
+  margin-left: 2%;
+}
+
+.copyright {
+  font-weight: 600;
+  color: $greytxt;
+  margin-right: 2%;
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+  .maindiv {
+    flex-direction: column;
+  }
+  #footerContent1:not(.show) {
+    display: none;
+  }
+  #footerContent2:not(.show) {
+    display: none;
+  }
+  #footerContent3:not(.show) {
+    display: none;
+  }
+  #footerContent4:not(.show) {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+  .rotatepad {
+    padding-top: 10px;
+  }
+}

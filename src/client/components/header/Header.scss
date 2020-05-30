@@ -1,0 +1,53 @@
+@import '../../../App.scss';
+
+
+.nav-txt {
+    font-weight: 600;
+    color: $greytxt !important;
+    cursor: pointer;
+}
+
+.nav-txt:hover {
+    color: $white !important;
+}
+
+.logoimg {
+    width: 50px;
+    height: 45px;
+    padding-bottom: 5px;
+    padding-right: 4px;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: $deeppink;
+}
+
+.btn-outline-success {
+    color: $deeppink;
+    border-color: $deeppink;
+}
+
+.btn-outline-success:hover {
+    color: $white;
+    background-color: $hotpink;
+    border-color: $hotpink;
+}
+
+.langicon {
+    margin-right: 10px;
+    color: white;
+    line-height: 1.2;
+}
+
+.btn:hover {
+    color: white;
+    border-color: white;
+}
+
+.btn:focus {
+    box-shadow: none; 
+}
+
+.cart-txt {
+    vertical-align: text-bottom;
+}

@@ -1,0 +1,97 @@
+// Colour
+$white: white;
+$deeppink: deeppink;
+$hotpink: hotpink;
+$greytxt: #cbbde2;
+
+// Fonts
+@font-face {
+  font-family: 'Trattatello';
+  src: url('./fonts/Trattatello.ttf');
+}
+
+// Background
+$darkslateblue: darkslateblue;
+
+.desktop {
+  display: block;
+}
+
+.mobile {
+  display: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.logofont {
+  font-family: Trattatello, fantasy;
+  font-size: 1.2em;
+  color: $white;
+}
+
+.bg-blue {
+  background-color: $darkslateblue !important;
+}
+
+.white-txt {
+  color: $white;
+}
+
+.grey-txt {
+  color: $greytxt;
+}
+
+.flex-container {
+  display: flex !important;
+}
+
+.flex-direction-column {
+  flex-direction: column !important;
+}
+
+.flex-direction-row {
+  flex-direction: row !important;
+}
+
+.flex-justify-center {
+  justify-content: center !important;
+}
+
+.flex-space-around {
+  justify-content: space-around !important;
+}
+
+.flex-space-between {
+  justify-content: space-between !important;
+}
+
+.flex-align-center {
+  align-items: center !important;
+}
+
+.flex-wrap {
+  flex-wrap: wrap !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+@media (max-width: 991.98px) {
+  .desktop {
+    display: none !important;
+  }
+  .mobile {
+    display: block !important;
+  }
+}
